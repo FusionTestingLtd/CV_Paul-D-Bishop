@@ -1,0 +1,391 @@
+/*========================*/
+/*||    COLOUR PALLET     ||*/
+/*========================*/
+/*Light btn color:  #9b59b6*/
+/*Dark btn Color:   #8e44ad*/
+
+/*Dark text Color:   #bdc3c7*/
+/*light text Color:  #ecf0f1*/
+
+
+
+/*===========================================================================*/
+/*||    PAGE SETUP      ||*/
+/*============================================================================*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #6a6a6a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+.clearfix {zoom:1}
+.clearfix:after {
+    content: ".";clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*==========================================================================*/
+/*||    ROWS AND COLUMNS     ||*/
+/*================================================================================*/
+
+.row {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 70px 0;
+}
+
+/*==================================================================*/
+/*||    HEADERS & NAVIGATION  ||*/
+/*=====================================================================*/
+
+/*Alternate header images*/
+    /*background-image: url(img/title-image%201.jpg)*/
+    /*background-image: url(img/title-image%202.jpg)*/
+    /*background-image: url(img/title-image%203.jpg)*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(img/title-image%203.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #dbdbdb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.9s;
+    padding-bottom: 5px;
+}
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 1px solid #c85cd1;
+} 
+/*=======================================================================================*/
+/*||    HEADDING, TEXT & SECTIONS    ||*/
+/*=================================================================================*/
+h1, h2, h3, h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #dbdbdb;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #8e44ad;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #8e44ad;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 100%;
+    margin-bottom: 15px;
+    font-weight: 400;
+    background-color: #e2e2e2;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+h4 a {
+    display: block;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    transform: scale(1.0);
+    transition: transform 0.5s;
+}
+h4 a:link,
+h4 a:visited {
+    color: #8e44ad;
+}
+h4 a:hover {
+    transform: scale(0.7);
+}
+
+h4:after {
+    display: block;
+    height: 2px;
+    background-color: #8e44ad;
+    content: "";
+    width: 100.7%;
+    margin-left: -5px;
+    margin-top: 5px;
+}
+
+.about {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+.last-updated {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    right: 30%;
+    margin-top: 20px;
+}
+.last-updated p {
+    color: #ecf0f1;
+    text-align: right;
+    line-height: 145%;
+    font-size: 90%;
+    font-weight: 100;
+}
+
+strong {
+    color: #8e44ad;
+    line-height: 400%;
+    letter-spacing: 2px;
+}
+
+/*===============================================================================*/
+/*||    ICONS                ||*/
+/*====================================================================================*/
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: rgb(157, 96, 183);
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box p {
+    text-align: center;
+    line-height: 145%;
+}
+/*===================================================================================*/
+/*||    BUTTONS              ||*/
+/*===================================================================================*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ecf0f1;
+    border-radius: 20px;
+    transition: background-color 0.9s, border 0.9s, color 0.9s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #9b59b6;
+    border: 1px solid #ecf0f1;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #8e44ad;
+    color: #9b59b6;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #8e44ad;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #8e44ad;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #ecf0f1;
+    border: 1px solid #8e44ad;
+}
+
+/*===================================================================================*/
+/*||    Section - FEATURES              ||*/
+/*=====================================================================================*/
+
+.section-features .about {
+    margin-bottom: 50px;
+}
+
+/*===================================================================================*/
+/*||    Section - SKILLS  (MANAGEMENT)  ||*/
+/*================================================================================*/
+.section-skills {
+    padding: 20px;
+    background-color: #eee;
+}
+
+.skills-box {
+    padding: 0;
+    background-color: rgb(188, 139, 199);
+    border-radius: 5px;
+    height: 60px;
+    transform: scale(0.9);
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s, border-radius 0.5s;
+}
+.skills-box:hover {
+    transform: scale(1.15);
+    opacity: 1;
+    border-radius: 30px;
+}
+
+.skills-box p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 145%;
+    font-size: 80%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/*=======================================================================================*/
+/*||    Section - SKILLS  (TECHNICAL)  ||*/
+/*================================================================================*/
+.skills-box-tec {
+    padding: 0px;
+    background-color: #aaa;
+    border-radius: 5px;
+    height: 60px;
+    transform: scale(0.9);
+    opacity: 0.7;
+    transition: transform 0.5s, opacity 0.5s, border-radius 0.5s;
+}
+
+.skills-box-tec:hover {
+    transform: scale(1.15);
+    opacity: 1;
+    border-radius: 30px;
+}
+.skills-box-tec p {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 145%;
+    font-size: 80%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+
+/*=====================================================================================*/
+/*||    Section - EXPERIENCE              ||*/
+/*================================================================================*/
+
+.section-experience {
+    background-color: #ffffff;
+    background-image: linear-gradient(rgba(226, 226, 226, 0.9), rgba(226, 226, 226, 0.9)), url(../css/img/filligree.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+.exp-date {
+    width: 10%;
+    font-weight: 600;
+    text-align: left;
+}
+
+.exp-content {
+    width: 70%;
+    background-color: rgba(230, 227, 227, 0.54);
+}
+.exp-content p {
+    padding-bottom: 20px;
+}
+
+.exp-content p, li {
+    line-height: 145%;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+
+.exp-content li {
+    line-height: 140%;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
