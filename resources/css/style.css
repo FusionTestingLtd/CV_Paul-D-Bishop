@@ -484,3 +484,45 @@ LOCATION
     text-align: center;
     font-size: 30px;
 }
+/* FOOTER  */
+.footer{
+    background-color: #292929;
+}
+.footerIcon {
+    font-size: 300%;
+    color: #0a66c2;
+}
+
+
+.footerLeft {
+    width: 60%;
+}
+
+.footerLeft li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    line-height: 110px;
+    margin-top: -50px;
+    font-size: 130%
+}
+
+.footerLeft li a:link,
+.footerLeft li a:visited{
+    text-decoration: none;
+    color: #8e44ad;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.footerLeft li a:active,
+.footerLeft li a:hover{
+    color: #5d5d5d;
+    border-bottom: 1px solid #8e44ad;
+}
+
+.footerRight {
+    width: 10%;
+    float: right;
+
+}
