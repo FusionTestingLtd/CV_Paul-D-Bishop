@@ -452,3 +452,35 @@ strong {
     margin-bottom: 10px;
     margin-left: 50px;
 }
+
+/*
+LOCATION
+*/
+.map {
+    background-color: #fff;
+    padding-bottom: 30px;
+    
+}
+.gmap {
+    float: right;
+}
+.travel {
+    margin-top: 10%;
+    padding-left: 50px;
+}
+
+.travel li{
+    list-style: none;
+    
+}
+.travel a{
+    margin-top: 50px;
+}
+/*CONTACT*/
+.SectionContact{
+    background-color: #eee;
+}
+.contact {
+    text-align: center;
+    font-size: 30px;
+}
