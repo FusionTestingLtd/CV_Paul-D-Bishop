@@ -487,6 +487,7 @@ LOCATION
 /* FOOTER  */
 .footer{
     background-color: #292929;
+    height: 200px;
 }
 .footerIcon {
     font-size: 300%;
